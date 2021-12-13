@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-azul-claro: #2196F3;
+    --cor-azul-medio: #3D5AFE;
+    --cor-azul-escuro: #0D47A1;
+    --cor-branco: #fff;
+    --font-padrao: verdana;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-header {
+    background:linear-gradient(var(--cor-azul-medio), var(--cor-azul-claro));
+    height: 200px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#circulo-icone {
+    height: 90px;
+    width: 90px;
+    background-color:var(--cor-branco);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.material-icons {
+    color: var(--cor-azul-claro);
+    font-size: 64px;
+}
+
+h1 {
+    font-family: var(--font-padrao);
+    font-size: 2rem;
+    color: var(--cor-branco);
+}
+
+h2 {
+    font-family: var(--font-padrao);
+    font-size: 0.8rem;
+    color: var(--cor-branco);
+}
+
+main {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: auto;
+    width: 25%;
+
+}
+
+form {
+    height: auto;
+    width: 100%;
+}
+
+
+
+main section form fieldset#formulario {
+    flex-direction: column;
+    border: none;
+
+}
+
+label {
+    font-family: var(--font-padrao);
+    font-size: 0.8rem;
+    margin-top: 3px;
+}
+
+input.btn {
+    background-color: var(--cor-azul-claro);
+    border-radius: 3px;
+    border-top: 1px solid var(--cor-azul-claro);
+    border-right: 1px solid var(--cor-azul-claro);
+    border-bottom: 2px solid var(--cor-azul-escuro);
+    border-left: 1px solid var(--cor-azul-claro);
+    color: var(--cor-branco);
+    margin-top: 5px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-family: var(--font-padrao);
+    cursor: pointer;
+}
+
+input.btn:hover {
+    background-color: var(--cor-azul-medio);
+}

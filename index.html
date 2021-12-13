@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 2</title>
+</head>
+<body>
+    <header class="flex">
+        <div id="div-header" class="flex">
+            <h1 class="flex">ME ACHA!</h1>
+            <h2 class="flex">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        </div>
+        <div id="circulo-icone" class="flex"><span class="material-icons">
+            travel_explore
+            </span>
+        </div>
+    </header>
+
+
+    <main class="flex">
+        <section>
+            <form method="get" name="procura">
+                <fieldset id="formulario" class="flex">
+                    <label for="cep">CEP</label>
+                    <input type="text" placeholder="Qual CEP deseja pesquisar" class="txt" id="cep" name="cep" value="">
+                    <label for="logradouro">Rua</label>
+                    <input type="text" class="txt" id="logradouro" name="logradouro" value="">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" class="txt" id="bairro" name="bairro" value="">
+                    <label for="localidade">Cidade</label>
+                    <input type="text" class="txt" id="localidade" name="localidade" value="">
+                    <label for="uf">Estado</label>
+                    <input type="text" class="txt" id="uf" name="uf" value="">
+                </fieldset>
+                <input type="button" id="botaoBuscar" class="btn flex" name="buscar" value="BUSCAR">
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
